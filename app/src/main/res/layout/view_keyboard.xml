@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    android:rowCount="5">
+
+    <Button
+        android:id="@+id/btn_symbol_bracket_left"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_symbol_bracket_left" />
+
+    <Button
+        android:id="@+id/btn_symbol_bracket_right"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_symbol_bracket_right" />
+
+    <Button
+        android:id="@+id/btn_rollback"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_edit_rollback" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_edit_clear" />
+
+    <Button
+        android:id="@+id/btn_symbol_add"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_symbol_add" />
+
+    <Button
+        android:id="@+id/btn_number_1"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_1" />
+
+    <Button
+        android:id="@+id/btn_number_2"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_2" />
+
+    <Button
+        android:id="@+id/btn_number_3"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_3" />
+
+    <Button
+        android:id="@+id/btn_symbol_subtract"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_symbol_subtract" />
+
+    <Button
+        android:id="@+id/btn_number_4"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_4" />
+
+    <Button
+        android:id="@+id/btn_number_5"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_5" />
+
+    <Button
+        android:id="@+id/btn_number_6"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_6" />
+
+    <Button
+        android:id="@+id/btn_symbol_multiply"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_symbol_multiply" />
+
+    <Button
+        android:id="@+id/btn_number_7"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_7" />
+
+    <Button
+        android:id="@+id/btn_number_8"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_8" />
+
+    <Button
+        android:id="@+id/btn_number_9"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_9" />
+
+    <Button
+        android:id="@+id/btn_symbol_divide"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_symbol_divide" />
+
+    <Button
+        android:id="@+id/btn_number_dot"
+        android:layout_width="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_dot" />
+
+    <Button
+        android:id="@+id/btn_number_0"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_number_0" />
+
+    <Button
+        android:id="@+id/btn_calculate"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_gravity="fill"
+        android:text="@string/text_edit_calculate" />
+
+</GridLayout>
